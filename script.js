@@ -46,11 +46,11 @@ function renderPosts() {
                 <img class="posted-img" src="${posts[i].post}" alt="The self-portrait of ${posts[i].name}.">
                 <footer class="post-interactions">
                     <div class="btn-container ">
-                        <button aria-label="Like" class="btn first"><img src="Images/icon-heart.png"
+                        <button aria-label="Like" class="btn first"><img src="images/icon-heart.png"
                                 alt="Like."></button>
-                        <button aria-label="Comment" class="btn middle"><img src="Images/icon-comment.png"
+                        <button aria-label="Comment" class="btn middle"><img src="images/icon-comment.png"
                                 alt="Comment."></button>
-                        <button aria-label="Share" class="btn last"><img src="Images/icon-dm.png" alt="Share."></button>
+                        <button aria-label="Share" class="btn last"><img src="images/icon-dm.png" alt="Share."></button>
                     </div>
                     <p class="likes">${posts[i].likes} likes</p>
                     <div class="Comments container">
